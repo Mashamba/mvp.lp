@@ -1,7 +1,5 @@
 /*!
- * Start Bootstrap - Landing Page Bootstrap Theme (http://startbootstrap.com)
- * Code licensed under the Apache License v2.0.
- * For details, see http://www.apache.org/licenses/LICENSE-2.0.
+ * Mashamba Landing Page
  */
 
 body,
@@ -10,16 +8,21 @@ html {
     height: 100%;
 }
 
-body,
 h1,
 h2,
+.brand {
+		font-family: "Comfortaa","Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+body,
 h3,
 h4,
 h5,
 h6 {
-    font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-weight: 700;
+    font-family: "Ubuntu","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 500;
 }
+
 
 .topnav {
     font-size: 14px; 
@@ -30,13 +33,18 @@ h6 {
     font-weight: 400;
 }
 
-.intro-header {
+.intro-img	{
+	  background: url(../img/intro-bg0.jpg) no-repeat center center;
+}
+.intro-back	{
+		background-color: rgba(44,15,0,0.6);
+}
+
+.intro-text {
     padding-top: 50px; /* If you're making other pages, make sure there is 50px of padding to make sure the navbar doesn't overlap content! */
     padding-bottom: 50px;
     text-align: center;
     color: #f8f8f8;
-    background: url(../img/intro-bg.jpg) no-repeat center center;
-    background-size: cover;
 }
 
 .intro-message {
