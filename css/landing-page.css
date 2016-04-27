@@ -13,6 +13,8 @@ h2,
 .brand {
 		font-family: "Comfortaa","Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 500;
+		text-transform: capitalize;
+
 }
 
 body,
@@ -22,6 +24,18 @@ h5,
 h6 {
     font-family: "Ubuntu","Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 500;
+}
+
+.form .form-control { margin-bottom: 10px; }
+@media (min-width:768px) {
+	#sign-up{
+		margin-top:50px;
+	}
+	#sign-up .slogan{
+		color: #0e385f;
+		line-height: 29px;
+		font-weight:bold;
+	}
 }
 
 .f {
