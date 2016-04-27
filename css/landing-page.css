@@ -55,7 +55,7 @@ h6 {
 	  background: url(../img/intro-bg0.jpg) no-repeat center center;
 }
 .intro-back	{
-		background-color: rgba(44,15,0,0.6);
+		background-color: rgba(44,15,0,0.5);
 }
 
 .intro-text {
@@ -140,12 +140,20 @@ h6 {
     border-top: 3px solid #e7e7e7;
 }
 
-.banner {
-    padding: 100px 0;
-    color: #f8f8f8;
-    background: url(../img/banner-bg.jpg) no-repeat center center;
+.banner-img {
+    background: url(../img/banner-bg2.jpg) no-repeat center center;
     background-size: cover;
 }
+
+.banner-back {
+		background-color: rgba(44,15,0,0.5);
+}
+
+.banner-text {
+		padding: 100px 0;
+    color: #f8f8f8;
+}
+	
 
 .banner h2 {
     margin: 0;
